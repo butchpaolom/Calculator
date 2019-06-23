@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Goog;
+  src: url(Prod.eot);
+}
+
+@font-face {
+  font-family: Goog;
+  src: url(Prod.ttf);
+}
+
+@font-face {
+  font-family: Scri;
+  src: url(Re.eot);
+}
+
+@font-face {
+  font-family: Scri;
+  src: url(Re.ttf);
+}
+
+h1
+{
+    filter: blur(2px);
+    font-family: Scri;
+    font-size: 140px;
+    margin: 0 auto;
+    text-align: center;
+    color: #606060;
+}
+
+#container:focus-within
+{
+    filter: blur(0px);
+}
+
+#container:hover
+{
+    filter: blur(0px);
+}
+
+body
+{
+    background-color: whitesmoke;
+}
+
+#container
+{
+    filter: blur(2px) grayscale(100);
+    border-radius: 20px;
+    background-color: white;
+    width: 320px;
+    height: 630px;
+    margin: 0 auto;
+    padding: 0px;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.3);
+}
+
+button
+{
+    font-family: Goog;
+    color: #ffffff;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+
+.num
+{
+    background-color: white;
+    color: #606060;
+}
+
+.num:hover
+{
+    background-color: rgba(234,234,234,0.4); 
+    color: #000000;
+    font-weight: bold;
+}
+
+.op
+{
+    background-color: rgba(234,234,234,0.4);  
+    color: #606060;
+}
+
+.op:hover
+{
+    background-color: white; 
+    color: #000000;
+    font-weight: bold;
+}
+
+#display
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0px;
+    height: 150px;
+    width: 320px;
+    background-image: linear-gradient(45deg, #FF512F, #DD2476);
+}
+
+#clear
+{
+    background-image: linear-gradient(45deg, #FF512F, #DD2476);
+    color: white;
+    border-bottom-left-radius: 20px;
+}
+
+#bin
+{
+    width: 240px;
+    border-bottom-right-radius: 20px;
+}
+
+#output_
+{
+    font-size: 40px;
+    font-family: Goog;
+    color: white;
+    margin: 5px;
+    text-align:right;
+}
+
+#ans_
+{
+    font-size: 70px;
+    font-family: Goog;
+    margin: 5px;
+    color: white;
+    text-align:right;
+}
+
+p
+{
+    white-space: nowrap;
+    overflow: auto;
+}
+
+::-webkit-scrollbar 
+{
+  height: 5px;
+}
+
+::-webkit-scrollbar-track 
+{
+  background: rgba(255,255,255,0.1); 
+}
+ 
+::-webkit-scrollbar-thumb 
+{
+  background: rgba(255,255,255,0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+footer {
+    color: rgb(200,200,200);
+    text-align:center;
+}

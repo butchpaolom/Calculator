@@ -1,0 +1,42 @@
+﻿<!DOCTYPE Html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>
+        Calculator
+    </title>
+</head>
+<body>
+    <h1>Calculator!</h1> 
+    <div id="container">
+        <div id="display"><p id="ans_">0</p><p id="output_"></p></div>
+        <div id="keys"><button class="num" id="n7" onclick="get_val(this.id)" value="7">7
+            </button><button id="n8" class="num" onclick="get_val(this.id)" value="8">8
+            </button><button id="n9" class="num" onclick="get_val(this.id)" value="9">9
+            </button><button id="mul" class="op" onclick="get_val(this.id)" value="*">x
+            </button><button id="n4" class="num" onclick="get_val(this.id)" value="4">4
+            </button><button id="n5" class="num" onclick="get_val(this.id)" value="5">5
+            </button><button id="n6" class="num" onclick="get_val(this.id)" value="6">6
+            </button><button id="div" class="op" onclick="get_val(this.id)" value="/">÷
+            </button><button id="n1" class="num" onclick="get_val(this.id)" value="1">1
+            </button><button id="n2" class="num" onclick="get_val(this.id)" value="2">2
+            </button><button id="n3" class="num" onclick="get_val(this.id)" value="3">3
+            </button><button id="add" class="op" onclick="get_val(this.id)" value="+">+
+            </button><button id="n0" class="num" onclick="get_val(this.id)" value="0">0
+            </button><button id="dec" class="op" onclick="get_val(this.id)" value=".">.
+            </button><button id="equal" class="op" onclick="solve_()">=
+            </button><button id="sub" class="op" onclick="get_val(this.id)" value="-">-
+            </button><button id="mc" class="op" onclick="m_clear()">MC
+            </button><button id="m+" class="op" onclick="m_save()">M+
+            </button><button id="mr" class="op" onclick="m_out()">MR
+            </button><button id="erase" class="op" onclick="erase_()" value="\b"><
+            </button><button id="clear" class="op" onclick="clear_()">C
+            </button><button id="bin" class="op" onclick="bin_()">BIN
+            </button>
+        </div>
+    </div>
+    <script src="script.js">       
+    </script>
+        <footer>PaoPaoPogi</footer>
+</body>
+</html>
